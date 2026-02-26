@@ -38,16 +38,16 @@ mv ~/.tmux.conf ~/backup_config/.tmux.conf
 
 Then run
 ```sh
-git clone https://github.com/ThomasReal/Dotfiles
+git clone https://github.com/ThomasReal/dotfiles
 cd dotfiles
 stow .
 ```
 
 ## Post installation
 
-- Remove the config files you don't want. Be aware that after running stow, even if you remove files in the directory in which you cloned this repository, the symlinks in your home folder will still exits, so you will have to remove those aswell.
+- Remove the config files you don't want. Be aware that after running stow, even if you remove files in the directory in which you cloned this repository, the symbolic links in your home folder will still exits, so you will have to remove those as well.
 
-- Review .zshrc. Some files paths may be wrong and you may not want certain alias or keybinds.
+- Review .zshrc. Some files paths may be wrong and you may not want certain aliases or keybinds.
 
 - If you use tmux but don't have the tpm (the Tmux Plugin Manager), run 
 ```sh
