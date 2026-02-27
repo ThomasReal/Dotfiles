@@ -2,8 +2,7 @@ export PATH="/opt/homebrew/bin:$HOME/.local/bin:/opt/homebrew/opt/llvm/bin:/opt/
 
 export PROMPT="%~ > "
 
-export EDITOR="$HOME/.local/share/bob/nvim-bin/nvim"
-export NEOVIM_BIN="$HOME/.local/share/bob/nvim-bin/nvim"
+export EDITOR="bob run nightly"
 
 export CC="/opt/homebrew/opt/llvm/bin/clang"     
 export CXX="/opt/homebrew/opt/llvm/bin/clang++"  
@@ -15,7 +14,7 @@ source $HOME/VulkanSDK/1.4.341.0/setup-env.sh > /dev/null
 
 alias c="clear"
 alias rm="trash"
-alias nvim="$HOME/.local/share/bob/nvim-bin/nvim"
+alias nvim="bob run nightly"
 
 alias ls="lsd -A"
 alias lsl="lsd -A -l"
